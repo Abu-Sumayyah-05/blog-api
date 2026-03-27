@@ -1,1 +1,1 @@
-{"root":["./src/main.ts","./src/shims-vue.d.ts","./src/api/posts.ts","./src/router/index.ts"],"version":"5.9.3"}
+{"root":["./src/api/posts.ts","./src/page/types/index.ts","./src/post card/hooks/useposts.ts","./src/types/utils/formatters.ts","./src/components/errorboundary.tsx","./src/components/layout.tsx","./src/components/postcard.tsx","./src/formatting/app.tsx","./src/formatting/main.tsx","./src/handling/loadingspinner.tsx","./src/pages/home.tsx","./src/pages/notfound.tsx","./src/pages/postdetail.tsx"],"version":"5.9.3"}

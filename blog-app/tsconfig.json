@@ -4,11 +4,12 @@
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "strict": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "skipLibCheck": true,
     "types": ["vite/client"]
   },
-  "include": ["src/**/*.ts", "src/**/*.vue", "src/shims-vue.d.ts"]
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/router/**", "src/**/*.vue", "src/shims-vue.d.ts"]
 }
